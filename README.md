@@ -34,7 +34,7 @@ The analysis of customer segments at Botswana Bank reveals three distinct catego
 To achieve this, it is crucial to analyze the products each segment is most likely to subscribe to and identify any patterns in their product preferences. Additionally, understanding the nature and frequency of complaints from each segment can provide valuable insights into areas for service improvement. For example, by addressing common issues raised by SMEs, optimizing corporate banking solutions, or enhancing retail banking experiences, Botswana Bank can strengthen customer satisfaction and retention within each segment.
 
 ### Balance
-<img src="images/balance.png" width="500" />  
+<img src="https://github.com/grwyn/Customer-Churn-at-Botswana-Bank/tree/main/Images/balance.png" width="500" />  
 
 The analysis of customer balances reveals a significant gap between the average balance of customers who churned and those who did not, with churned customers having an average balance approximately 100,000 higher. This disparity suggests that customers with lower balances are less engaged or less attached to the bank. A lower balance might indicate minimal interaction with the bank’s services, fewer financial dependencies, or a lack of incentives to maintain their relationship with the institution. Consequently, this reduced attachment makes it easier for these customers to close their accounts or switch to competitors.
 
