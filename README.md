@@ -22,12 +22,12 @@ The goal of this project is to build a robust machine learning pipeline to analy
 The purpose of this exploratory analysis is to support the development of a machine learning model that predicts customer churn at Botswana Bank. By examining the factors influencing the target column (0 = Not Churned, 1 = Churned), the analysis aims to uncover patterns and key reasons behind why customers decide to leave the bank. This includes identifying significant variables, such as account usage, transaction history, customer demographics, and engagement levels, that correlate strongly with churn behavior. From these insights, we can provide actionable business recommendations to reduce churn, enhance customer retention strategies, and improve overall customer satisfaction.
 
 ### Churn Flag Distribution
-<img src="images/Churn_flag.png" width="500" />
+<img src="Images/Churn_flag.png" width="500" />
 
 To build a machine learning model, I analyzed the distribution of the target column. Based on the pie chart visualization, the number of customers who did not churn is greater than those who did. With this insight, I will decide whether balancing is necessary. If the model shows signs of overfitting, I will apply balancing techniques; however, if the model demonstrates a good fit, balancing will not be required.
 
 ### Customer Segements
-<img src="images/Customer_segment.png" width="500" />
+<img src="Images/Customer_segment.png" width="500" />
 
 The analysis of customer segments at Botswana Bank reveals three distinct categories: SME (Small and Medium Enterprises), Corporate, and Retail. The distribution of customers across these segments is relatively even, suggesting that the bank serves all three segments equally. This balanced distribution presents an opportunity to enhance customer loyalty by tailoring strategies to the specific needs and preferences of each segment.
 
@@ -39,21 +39,21 @@ To achieve this, it is crucial to analyze the products each segment is most like
 The analysis of customer balances reveals a significant gap between the average balance of customers who churned and those who did not, with churned customers having an average balance approximately 100,000 higher. This disparity suggests that customers with lower balances are less engaged or less attached to the bank. A lower balance might indicate minimal interaction with the bank’s services, fewer financial dependencies, or a lack of incentives to maintain their relationship with the institution. Consequently, this reduced attachment makes it easier for these customers to close their accounts or switch to competitors.
 
 ### Number of Complaints
-<img src="images/Number_complaints.png" width="500" />
+<img src="Images/Number_complaints.png" width="500" />
 
 The analysis of the number of complaints in the Botswana Bank dataset reveals that customers who churned filed an average of nearly 7 complaints, whereas customers who did not churn reported an average of approximately 4.8 complaints. This suggests that while churned customers are more likely to have raised complaints, it is noteworthy that even non-churned customers reported a significant number of issues. This indicates that some level of dissatisfaction is present among all customer groups, highlighting that it is normal for a corporation to face challenges in fully meeting customer expectations.
 
 However, the higher average number of complaints among churned customers suggests a tipping point where unresolved issues or negative experiences might contribute significantly to churn. This insight emphasizes the need for proactive complaint resolution mechanisms and better customer service practices. Addressing these issues promptly could help mitigate churn risks and improve overall customer satisfaction and loyalty.
 
 ### Number of Products
-<img src="images/Number_of_products.png" width="500" />  
+<img src="Images/Number_of_products.png" width="500" />  
 
 The analysis highlights the average number of products subscribed to by customers at Botswana Bank. Customers who churned subscribed to an average of 2 products, while those who remained loyal had subscriptions to 3 or more products on average. The gap between these two groups is not particularly large, indicating that the products offered by Botswana Bank are generally appealing and valuable to customers.
 
 However, this finding suggests that having fewer product subscriptions may correlate with a higher likelihood of churn, possibly due to less engagement with the bank’s services or a weaker sense of dependency on the bank. To understand the root causes of churn more thoroughly, further analysis should focus on specific customer reasons for leaving. These could include dissatisfaction with service quality, unmet expectations, or more competitive offerings from other institutions. Identifying these factors will help Botswana Bank refine its strategies to retain customers and increase product adoption rates.
 
 ### Churned Customer Reason
-<img src="images/Churned_customer_reason.png" width="500" />  
+<img src="Images/Churned_customer_reason.png" width="500" />  
 
 The distribution of customer churn reasons at Botswana Bank includes the following key factors: balance account closure, service issues, better offers elsewhere, and relocation. Each of these reasons offers valuable insights into customer behavior and areas for improvement:
 
